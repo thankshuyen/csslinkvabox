@@ -1,0 +1,149 @@
+/* ====== Định dạng chung ====== */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+/* ====== Bố cục bảng ====== */
+.container {
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: block;
+    margin: auto;
+}
+
+.header {
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    background-color: white;
+    padding: 15px;
+}
+
+/* ====== Định dạng danh sách ====== */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 2.5;
+    margin-bottom: 20px;
+}
+
+/* ====== LINK TIẾNG ANH ====== */
+.ta {
+    color: red;
+    border: 2px solid red;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.ta:hover {
+    color: #FFFAE1;
+    background-color: red;
+    border: 2px dashed red;
+}
+.ta:active {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    border: 2px solid red;
+}
+.ta:visited {
+    color: gray;
+    border: 2px solid gray;
+    background: none;
+}
+
+/* ====== LINK TRIẾT HỌC ====== */
+.th {
+    color: #DAA520;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.th:hover {
+    color: #f4c13f;
+    border: 4px double #8B4513;
+    background-color: #D2B48C;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+.th:active {
+    color: #8B4513;
+    background-color: #DAA520;
+}
+.th:visited {
+    color: #464440;
+    text-decoration: line-through;
+}
+
+/* ====== LINK HÀ NỘI HỌC ====== */
+.hnh {
+    color: inherit;
+    text-decoration: underline;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.hnh:hover {
+    color: purple;
+    text-decoration: none;
+}
+.hnh:active {
+    color: red;
+}
+.hnh:visited {
+    color: black;
+}
+
+/* ====== LINK SINH VIÊN ĐẠI HỌC ====== */
+.sv {
+    color: black;
+    padding: 5px;
+    display: inline-block;
+    border: 3px solid;
+    border-color: #FFB6C1 #87CEFA #98FB98 #FFD700;
+    margin-bottom: 10px;
+}
+.sv:hover {
+    border-color: #87CEFA;
+}
+.sv:active {
+    border-color: #FFB6C1;
+}
+.sv:visited {
+    border-color: #98FB98;
+}
+
+/* ====== LINK TIN HỌC ====== */
+.thoc {
+    color: #B0E0E6;
+    background-color: #4682B4;
+    border: 3px dotted #B0E0E6;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.thoc:hover {
+    border: 3px dashed #ADD8E6;
+}
+.thoc:active {
+    border: 3px inset #4682B4;
+}
+.thoc:visited {
+    color: inherit;
+    background: none;
+    border: none;
+}

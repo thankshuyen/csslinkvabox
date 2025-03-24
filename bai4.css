@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: "Baskerville", Times New Roman, serif;
+}
+
+.box {
+    width: 400px;
+    background-color: white;
+    border: 2px solid #aaa; /* Viền xám đậm hơn */
+    box-shadow: 8px 8px 0px #888; /* Bóng xám rõ nét */
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.box-header {
+    background-color: #66e0ff;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.box-content {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+}

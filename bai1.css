@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: #E06C3D;
+    position: absolute;
+}
+
+.box1 {
+    top: 0;
+    left: 0;
+    border: 4px solid black;
+}
+
+.box2 {
+    top: 88px;  /* Dịch xuống để sát cạnh */
+    left: 88px; /* Dịch sang phải để tạo đường chéo */
+    border: 4px solid navy;
+}
+
+.box3 {
+    top: 176px;
+    left: 176px;
+    border: 4px solid olive;
+    margin-bottom: 80px;
+    margin-right: 80px;
+}

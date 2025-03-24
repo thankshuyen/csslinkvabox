@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 350px;
+    background: white;
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); /* Bóng mờ */
+    overflow: hidden; /* Giữ bo góc cho cả phần header */
+    border: 1px solid gray;
+}
+
+.header {
+    background: black;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px; 
+}
+
+li {
+    color: black; /* Dấu đầu dòng màu đen */
+    margin: 8px 0;
+}
+
+a:link {
+    color: blue;
+    text-decoration:underline;
+    font-weight: normal;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+a:active {
+    color: green;
+}
